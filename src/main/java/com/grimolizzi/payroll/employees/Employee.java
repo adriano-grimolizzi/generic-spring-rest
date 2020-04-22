@@ -1,4 +1,4 @@
-package com.grimolizzi.payroll;
+package com.grimolizzi.payroll.employees;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.grimolizzi.payroll;
+package com.grimolizzi.payroll.employees;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

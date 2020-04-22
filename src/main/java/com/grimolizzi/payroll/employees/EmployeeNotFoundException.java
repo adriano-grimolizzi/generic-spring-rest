@@ -1,4 +1,4 @@
-package com.grimolizzi.payroll;
+package com.grimolizzi.payroll.employees;
 
 public class EmployeeNotFoundException extends RuntimeException {
 
