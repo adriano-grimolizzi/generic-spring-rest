@@ -19,7 +19,7 @@ public class Order {
     private String description;
     private Status status;
 
-    public Order () {}
+    public Order () {} // Don't remove, otherwise: org.springframework.orm.jpa.JpaSystemException: No default constructor for entity
 
     public Order(String description, Status status) {
         this.description = description;

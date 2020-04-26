@@ -16,7 +16,7 @@ public class Employee {
 
     private String name, role;
 
-    public Employee() {}
+    public Employee() {} // Don't remove, otherwise: org.springframework.orm.jpa.JpaSystemException: No default constructor for entity
 
     // custom constructor created when we need to create a new instance but we don't have the id.
     public Employee(String name, String role) {
